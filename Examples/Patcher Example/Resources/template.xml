@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<patchLib>
+  <Frame resId="1000" />
+  <Cursor resId="2000" />
+  <Font resId="2001" h="14" n="bit1" />
+  <Icon resId="2002" />
+  <Music resId="2003" />
+  <Window x="-1" y="-1" c="pLibv3PatcherDemo" t="patchLibv3 Patcher Demo" a="1">
+    <Button x="14" y="178" s="2" a="Music" resId="3000" callback="$Music" />
+    <Button x="95" y="178" s="2" a="Backup" resId="3001" callback="$Backup" />
+    <Button x="177" y="178" s="3" a="Patch" resId="3002" callback="$Patch" />
+    <Button x="259" y="178" s="3" a="Exit" resId="3003" callback="$Exit" />
+    <Label x="89" y="117" r="0" g="0" b="0" a="application" t="Dummy Application" />
+    <Label x="62" y="152" r="0" g="0" b="0" a="author" t="atom0s // Wiccaan" />
+    <Label x="240" y="152" r="0" g="0" b="0" a="date" t="00.00.0000" />
+    <Scroller x="362" y="3" w="336" r="1" g="0" b="0" f="0.0" s="0.0" amp="0" a="creditScroller" t="This is some text to be scrolled..." />
+    <Url x="42" y="135" r="0" g="0" b="0" ro="255" go="255" bo="255" a="urlSite" t="www.dummy-site.com" url="http://www.dummy-site.com/test_no_follow_link.html" />
+  </Window>
+</patchLib>

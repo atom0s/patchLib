@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<patchLib>
+  <Frame resId="1000" />
+  <Icon resId="2000" />
+  <Cursor resId="3000" />
+  <Font resId="4000" h="14" n="bit1" />
+  <Music resId="4004" />
+  <Window x="-1" y="-1" c="patchLibv3Demo" t="patchLibv3Demo" a="1">
+
+    <!-- Description Labels -->
+    <Label x="210" y="30" r="0" g="0" b="0" a="lblApplicationText" t="Application:" />
+    <Label x="233" y="50" r="0" g="0" b="0" a="lblVersionText" t="Version:" />
+    <Label x="238" y="70" r="0" g="0" b="0" a="lblAuthorText" t="Author:" />
+
+    <!-- Application Information Labels -->
+    <Label x="300" y="30" r="0" g="125" b="255" a="lblApplication" t="Fake Application" />
+    <Label x="300" y="50" r="0" g="125" b="255" a="lblVersion" t="v3.0.0" />
+    <Label x="300" y="70" r="0" g="125" b="255" a="lblAuthor" t="atom0s" />
+    
+    <!-- Keygen Labels -->
+    <Label x="50" y="125" r="0" g="0" b="0" a="lblName" t="Enter Name: " />
+    <Label x="62" y="150" r="0" g="0" b="0" a="lblSerial" t="Serial Key: " />
+
+    <!-- Buttons -->
+    <Button x="150" y="193" s="2" a="Music" resId="4001" callback="$Music" />
+    <Button x="260" y="193" s="3" a="Copy" resId="4002" callback="$Copy" />
+    <Button x="375" y="193" s="3" a="Exit" resId="4003" callback="$Exit" />
+
+    <!-- Scroller -->
+    <Scroller x="20" y="250" w="550" r="255" g="255" b="255" a="scrollTest1" t="{EDIT ME!}" f="0.2" s="0.1" amp="5" />
+    
+  </Window>
+</patchLib>

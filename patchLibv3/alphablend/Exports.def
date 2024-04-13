@@ -1,0 +1,6 @@
+LIBRARY alphablend
+EXPORTS  
+
+AlphaBlend2 			@1
+AlphaBlendScroller		@2
+PaintText				@3
