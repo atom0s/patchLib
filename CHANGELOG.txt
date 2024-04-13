@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+patchLib Changelog
+    o [A] = Added
+    o [C] = Change
+    o [F] = Fixed
+    o [R] = Removed
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+patchLib v3.1 - January 20, 2011
+--------------------------------------------------------------------------------
+    [C] License changed to GNU Lesser GPL.
+
+--------------------------------------------------------------------------------
+patchLib v3.0 - January 19, 2011
+--------------------------------------------------------------------------------
+    [C] Complete rewrite of library.
+    [C] Usage of Visual Studio 2010.
+    [C] Usage of Boost template library.
+    [C] Usage of Lua scripting engine. (Optional; not in first release.)
+    [F] Fixed .lib inclusion problems. Projects no longer need to import each lib file.
+    [C] CEngine renamed to CPatchLib.
+    [R] CBaseWindow was removed and condensed into CWindow.
+    [R] CFrame was removed and condensed into CPatchLib.
+    [R] CCommand and CCommandHandler are both removed. (New handling inside of CWindow.)
+    [C] Class friendship issues resolved and no longer required.
+    [C] Mouse and Icon are now handled by CWindow class.
+    [C] Misc. functions are now resided inside of imghelper.h
+    [A] Added more property exposure to main engine class. (CPatchLib)
+    [C] patchLib controls now all inherit a base class CChild for simplified management.
+    [C] CButton positioning and size are all condensed into a single rect.
+    [C] CLabel, CScroller, CUrl no longer make seperate copies of the created font object.
+    [A] Added more property control to CScroller.
+    [C] Template files no longer require frame image size, this is handled automatically.
+    [A] Win32 control drawing support.
+    [R] patchLib documentation is no longer being written.
+    
+--------------------------------------------------------------------------------
+patchLib v2.0 - January 11, 2009
+--------------------------------------------------------------------------------
+    [C] Complete rewrite of the library.
+    [A] Added CBaseWindow class to remove the need for the user to create the window and handle window messages.
+    [C] Adjusted CWindow and CFrame to be used differently for a better performance boost.
+    [A] Added the CCommandHandler class to better handle binding functions to commands.
+    [C] All objects can now be created during runtime instead of just during the interface load.
+    [C] Adjusted function parameters to use const keywords for better performance.
+    [C] CText is now known as CLabel.
+    [C] Adjusted the way objects are obtained and edited via the engine.
+    [A] Added helper commands to obtain pointers to objects that are created within the engine.
+    [F] Frame image distortion on load of created files. (I think its fixed..)
+    [F] Various crashes due to invalid pointers.
+    [F] Memleak issues.
+    [F] Fixed the need to have masm32 installed due to alphaBlend.lib not being setup properly.
+
+--------------------------------------------------------------------------------
+patchLib v1.1 - May 02, 2008
+--------------------------------------------------------------------------------
+    [A] AlwaysOnTop feature added to main window settings.
+    [A] Copyright headers added to various files.
+    [F] Images are no longer required to be upside down.
+
+--------------------------------------------------------------------------------
+patchLib v1.0 - April 29, 2008 (Initial Release)
+--------------------------------------------------------------------------------
+    Initial release; no changelog.
