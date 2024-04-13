@@ -1,6 +1,6 @@
 # patchLib v3
 
-_**Please Note** This project is old and no longer supported. The code base is over 12 years old. There are bugs and things are not optimized or coded in the best manner. I do not support or maintain this project any longer._
+:warning: _**Please Note:** This project is old and no longer supported. The code base is over 12 years old. There are bugs and things are not optimized or coded in the best manner. I do not support or maintain this project any longer._
 
 ## Donations
 
@@ -16,9 +16,9 @@ Here are some old screenshots of this project:
 
 ![launcher1](./repo/launcher1.png) ![launcher2](./repo/launcher2.png)
 
-![patcher1](/repo/patcher1.png) ![patcher2](/repo/patcher2.png)
+![patcher1](./repo/patcher1.png) ![patcher2](./repo/patcher2.png)
 
-![win32ctrls1](/repo/win32ctrls1.png) ![win32ctrls2](/repo/win32ctrls2.png)
+![win32ctrls1](./repo/win32ctrls1.png) ![win32ctrls2](./repo/win32ctrls2.png)
 
 ## Old README
 
