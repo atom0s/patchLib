@@ -12,6 +12,14 @@ Enjoy my work and want to say thank you? You can support me and my projects in v
 
 ## Screenshots
 
+Here are some old screenshots of this project:
+
+![launcher1](./repo/launcher1.png) ![launcher2](./repo/launcher2.png)
+
+![patcher1](/repo/patcher1.png) ![patcher2](/repo/patcher2.png)
+
+![win32ctrls1](/repo/win32ctrls1.png) ![win32ctrls2](/repo/win32ctrls2.png)
+
 ## Old README
 
 ```
